@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Broken Light — Original Songs for Sync</title>
+  <title>Fiat Musica — Original Songs for Sync</title>
   <meta name="description" content="Original songs for picture. Clearable. Adaptable. Fast. A curated release from a deeper archive of original songs available for one-stop sync licensing." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -428,7 +428,7 @@
   <header class="topbar">
     <div class="wrap topbar-inner">
       <div class="brand-mark">
-        <div class="brand-title">Broken Light</div>
+        <div class="brand-title">Fiat Musica</div>
         <div class="brand-sub">Original songs for sync</div>
       </div>
       <nav class="nav" aria-label="Primary">
@@ -636,7 +636,7 @@
           <div class="eyebrow">Authorship &amp; rights</div>
           <h2>Written by hand. Prepared for picture. Clearly yours to license.</h2>
           <p>
-            Every composition in this catalog was written by Jim Yett between 1982 and 1998 and
+            Every composition in this catalog was written by James Pauli between 1982 and 1998 and
             is now being prepared for sync release under direct contemporary production control.
           </p>
           <p>
@@ -680,8 +680,7 @@
             from the catalog or archive.
           </p>
           <p>
-            Broken Light is the catalog brand. Fiat Lux Technology LLC handles one-stop
-            master and sync clearance.
+            Fiat Musica handles one-stop master and sync clearance.
           </p>
         </div>
 
@@ -744,7 +743,7 @@
               <textarea id="fbrief" name="brief_description" rows="5" placeholder="Scene context, tone, length, territory, timeline — anything useful." required></textarea>
             </div>
           </div>
-          <input type="hidden" name="_subject" value="Broken Light — Sync Licensing Inquiry">
+          <input type="hidden" name="_subject" value="Fiat Musica — Sync Licensing Inquiry">
           <button class="btn btn-dark" type="submit" style="margin-top:18px;">Send Inquiry</button>
           <div class="form-note">No commitment. One business day response.</div>
           <div class="form-success" id="form-success">Received — we'll be in touch within one business day.</div>
@@ -756,23 +755,22 @@
   <footer>
     <div class="wrap footer-grid">
       <div>
-        <div class="brand-title">Broken Light</div>
+        <div class="brand-title">Fiat Musica — Sync</div>
         <div class="footer-copy">
           Original songs for sync<br>
-          One point of contact for 100% master + sync clearance<br>
-          Administered by Fiat Lux Technology LLC
+          One point of contact for 100% master + sync clearance
         </div>
       </div>
       <div class="footer-copy" style="text-align:right;">
-        <a href="mailto:jim@flective.com">jim@flective.com</a><br>
-        © 2025 Fiat Lux Technology LLC · Broken Light
+        <a href="mailto:jim@fiatmusica.com">jim@fiatmusica.com</a><br>
+        © 2026 Fiat Musica
       </div>
     </div>
   </footer>
 
   <!-- PERSISTENT PLAYER -->
   <div class="player" id="player">
-    <div class="p-brand">Broken Light</div>
+    <div class="p-brand">Fiat Musica</div>
     <div class="p-ctrls">
       <button class="p-btn" id="pprev" aria-label="Previous">
         <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6 6h2v12H6zm3.5 6 8.5 6V6z"/></svg>
@@ -786,7 +784,7 @@
     </div>
     <div class="p-info">
       <div class="p-title" id="ptitle">Select a track to begin</div>
-      <div class="p-meta" id="pmeta">Broken Light Sync Catalog · Fiat Musica</div>
+      <div class="p-meta" id="pmeta">Fiat Musica Sync Catalog</div>
     </div>
     <div class="p-prog-col">
       <div class="p-prog-bar" id="pprogbar">
@@ -926,7 +924,7 @@
     stopAll();
     cur=id; curVi=vi; playing=true;
     document.getElementById('ptitle').textContent = `"${t.title}"`;
-    document.getElementById('pmeta').textContent  = `${t.year} · ${t.key} · ${t.bpm} BPM · ${t.vocal} · Jim Yett`;
+    document.getElementById('pmeta').textContent  = `${t.year} · ${t.key} · ${t.bpm} BPM · ${t.vocal} · James Pauli`;
     document.getElementById('pvariant').textContent = v.label.toUpperCase();
     updPBtn();
     const card = document.getElementById(`tc-${id}`);
@@ -1046,7 +1044,7 @@
       art.innerHTML = `
         <div class="track-top">
           <div style="flex:1;min-width:0;">
-            <div class="track-meta">Jim Yett · ${t.year} · ${t.era}</div>
+            <div class="track-meta">James Pauli · ${t.year} · ${t.era}</div>
             <div class="track-title-row">
               <h3 class="track-title">${t.title}</h3>
               <button class="play-btn" id="pb-${t.id}" aria-label="Play ${t.title}">${svgP()}</button>
